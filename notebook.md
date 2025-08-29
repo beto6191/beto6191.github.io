@@ -7,13 +7,13 @@
 
 ## Flutter Notes 
 
-### 🧱 What is Flutter?
+###  What is Flutter?
 - Definition:
 - Why is it useful?
 
 ---
 
-### 🧩 Key Terms and Definitions
+###  Key Terms and Definitions
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
