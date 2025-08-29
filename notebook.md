@@ -5,7 +5,7 @@
 - [Day 2](#day-2)
 -(notebook style guide)(#markdown-style-guide-coding-notebooks)
 
-## Flutter Notes - [Insert Date]
+## Flutter Notes 
 
 ### 🧱 What is Flutter?
 - Definition:
