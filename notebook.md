@@ -8,8 +8,8 @@
 ## Flutter Notes 
 
 ###  What is Flutter?
-- Definition:
-- Why is it useful?
+- Definition:a framwork made by google for buildings apps that work on web,andriod,and ios-with one codebase
+- Why is it useful?uses the dart programming language.
 
 ---
 
@@ -17,19 +17,20 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
+| Widget           |    basic building block a flutter app evrything is a widget    text,inmage.container,colum                                              |                                           |
+| MaterialApp      |    the root of the app sets up rutes and themes.        found in main dart                                              |                                           |
+| Scaffold         |    provides basic visuyal layout- like a header,body floating button   each screen uses it                                            |                                           |
+| StatelessWidget  |   predefinded paths to navigate between screens   |                                           |
 | StatefulWidget   |                                                  |                                           |
 | Navigator        |                                                  |                                           |
 | AppBar           |                                                  |                                           |
 | Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
+| Row              |   horizontal layout                                               |                                           |
 | Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
+| Text             |    displays text                                              |                                           |
 | Image.network    |                                                  |                                           |
-
+| Padding|||
+| center|||
 ---
 
 ### 🎨 Layout and Design Widgets
