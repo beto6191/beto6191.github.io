@@ -2,9 +2,9 @@
 - [flutter notes](#flutter-notes)
   - [what is flutter](#what-is-flutter)
   - [key terms and deinitions](#key-terms-and-definitions)
-- [Day 2](#day-2)
--(notebook style guide)(#markdown-style-guide-coding-notebooks)
-
+ [Code Definitions](#code_definitions)
+-[notebook style guide](#markdown-style-guide-coding-notebooks).
+ 
 ## Flutter Notes 
 
 ###  What is Flutter?
@@ -38,7 +38,56 @@
 - How do you align something to the left or right?
 - What widget adds space around content?
 
-****
+           
+        
+
+
+
+
+
+
+
+##code defintion 
+
+| Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
+|------|------------|--------------------------|-------------------|-------------|
+| variable    | A named container used to store a value that may change. | `var x = 5;` |  |  |
+| constant    | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
+| data type   | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |a sentence vs and age  |  |
+| string      | A sequence of characters used to represent words or text. | `"Hello World"` |the objective of video game    |  |
+| integer     | Whole number values. | `int age = 16;` |counting |  |
+| double      | Number values with decimals. | `double age = 16.2;` |coutning and adding numbers   |  |
+| boolean     | A value that can be true or false. | `bool isLoggedIn = false;` |reading  real news an nreading fake news  |  |
+| list        | A collection of values in a specific order. | `List<String> names = [];` |listing different things to do  |  |
+| null        | A special value that means “nothing.” | `String? name = null;` |when you need to know a value but there isnt a value yet |  |
+| function    | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |gettting game over after ur character keeps dying  |  |
+| parameter   | The information passed into a function to change how it works. | `greet(String name)` |someone giving an opnion and inputting a opinion  |  |
+| return      | The result a function gives back. | `return total;` |giving money and getting in return a item  |  |
+| scope       | Where a variable or function can be used. | (No set syntax — concept-based) |u can only have that checkspot in that area  |  |
+| class       | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |a game diffrent type of games   |  |
+| object      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+| property    | A variable that belongs to a class/object. | `String name;` |  |  |
+| method      | A function that belongs to a class. | `void bark() {}` |  |  |
+| constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+| abstraction | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+| override    | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+| void        | A function that does not return a value. | `void printMessage() {}` |  |  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
