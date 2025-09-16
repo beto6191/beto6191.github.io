@@ -2,6 +2,7 @@
 - [flutter notes](#flutter-notes)
   - [what is flutter](#what-is-flutter)
   - [key terms and deinitions](#key-terms-and-definitions)
+-[defintions with structures](#flutter-defintions)
  [Code Definitions](#code_definitions)
 -[notebook style guide](#markdown-style-guide-coding-notebooks).
  
@@ -9,8 +10,7 @@
 
 ###  What is Flutter?
 - Definition:a framwork made by google for buildings apps that work on web,andriod,and ios-with one codebase
-- Why is it useful?uses the dart programming language.
-
+- Why is it useful?
 ---
 
 ###  Key Terms and Definitions
@@ -21,12 +21,12 @@
 | MaterialApp      |    the root of the app sets up rutes and themes.        found in main dart                                              |                                           |
 | Scaffold         |    provides basic visuyal layout- like a header,body floating button   each screen uses it                                            |                                           |
 | StatelessWidget  |   predefinded paths to navigate between screens   |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
+| StatefulWidget   |   a UI component in frameworks like Flutter that can change its internal data                                               |                                           |
+| Navigator        |    a person, instrument, or software that directs the course or finds a path                                              |                                           |
+| AppBar           |   a persistent UI element found at the top or bottom of an application                                               |                                           |
+| Column           |    a coulum seprating diffrent things                                               |                                           |
 | Row              |   horizontal layout                                               |                                           |
-| Container        |                                                  |                                           |
+| Container        |    storing data                                               |                                           |
 | Text             |    displays text                                              |                                           |
 | Image.network    |                                                  |                                           |
 | Padding|||
@@ -64,14 +64,45 @@
 | parameter   | The information passed into a function to change how it works. | `greet(String name)` |someone giving an opnion and inputting a opinion  |  |
 | return      | The result a function gives back. | `return total;` |giving money and getting in return a item  |  |
 | scope       | Where a variable or function can be used. | (No set syntax — concept-based) |u can only have that checkspot in that area  |  |
-| class       | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |a game diffrent type of games   |  |
-| object      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
-| property    | A variable that belongs to a class/object. | `String name;` |  |  |
-| method      | A function that belongs to a class. | `void bark() {}` |  |  |
-| constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-| abstraction | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-| override    | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-| void        | A function that does not return a value. | `void printMessage() {}` |  |  |
+| class       | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | something that has a spefic matter   |  |
+| object      | A specific version of a class. | `Dog myDog = Dog();` | a tangible thing that can be seen or touched, something a thought or action is directed toward  |  |
+| property    | A variable that belongs to a class/object. | `String name;`  anything that can be owned|  |  |
+| method      | A function that belongs to a class. | `void bark() {}` | a manner in which a thing is done or in which it happens |  |
+| constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |a person or entity responsible for building or creating  |  |
+| abstraction | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |keyboard hiding the codes under the letters  |  |
+| override    | Changing how a built-in or inherited function behaves. | `@override` |  to use superior authority or power to disregard |  |
+| void        | A function that does not return a value. | `void printMessage() {}` |an empty or vacant space  |  |
+
+
+
+
+## Flutter Definitions with structures
+
+| Term | Definition and Description | Base Structure | Real Life Example | App Example |
+|------|----------------------------|----------------|-------------------|-------------|
+| main  | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | agry brids  |  |
+| MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |my space  |  |
+| scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |a template  |  |
+| colum     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
+|      | A widget that shows things side-by-side. | `Row(...)` |  |  |
+|      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
+|      | A widget to display text on the screen. | `Text('Hello')` |  |  |
+|      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
+|      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+|      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
+|      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
+|      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+|      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+|      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+|      | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+|      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+|      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+|      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+|      | Required in every widget class to describe what to show. | `build` |  |  |
+|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+
 
 
 
