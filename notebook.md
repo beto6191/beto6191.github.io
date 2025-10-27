@@ -117,11 +117,17 @@
 
 
 
-
-
-
-
-
+| scanner| Creats a scanner object to take input from userV Scanner in = new scanner(systeam.in);| | | 
+|  import scanner|  gives access to sacnner class, required at  top V import java.util.scanner; | | | 
+| print line sate meant|  prints what's in the parenthesis, adds line after |  System.out.prntln(" "); | | | 
+| print statement | prints the content in the parebethesis|  System.out.println(" ");| | | 
+| input nextline |  reads in a String from user |  input.nextline();| | | 
+| input nextInt|  reads in an int from user |  input.nextInt(); | | | 
+| input nextdouble | reads in a double (decimal) from user |  inout.nextdouble(); | | | 
+| input next boolean|  reads in a boolean (true/false) from the user |  input.nextBoolean();| | | 
+|  arithmetic opreators|  -      *     /    %(modulus, returns the remainder from dibiding) | | | | 
+|  compound operators(applies the result to the variable) |  +=   -=    *=   /=  %=  ++ (adds 1)
+| | | | 
 
 
 
