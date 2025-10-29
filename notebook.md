@@ -72,7 +72,9 @@
 | abstraction | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |keyboard hiding the codes under the letters  |  |
 | override    | Changing how a built-in or inherited function behaves. | `@override` |  to use superior authority or power to disregard |  |
 | void        | A function that does not return a value. | `void printMessage() {}` |an empty or vacant space  |  |
-
+|maximum int| The max valur an int can hold:-2147483647 | Integer.MAX_VALUE|||
+|Minimum int| The mimimum valuye an int can hold: 2147483648 | Integer.MIN_VALUE |||
+| integer overflow|
 
 
 
@@ -128,6 +130,7 @@
 |  arithmetic opreators|  -      *     /    %(modulus, returns the remainder from dibiding) | | | | 
 |  compound operators(applies the result to the variable) |  +=   -=    *=   /=  %=  ++ (adds 1)
 | | | | 
+
 
 
 
