@@ -74,9 +74,15 @@
 | void        | A function that does not return a value. | `void printMessage() {}` |an empty or vacant space  |  |
 |maximum int| The max valur an int can hold:-2147483647 | Integer.MAX_VALUE|||
 |Minimum int| The mimimum valuye an int can hold: 2147483648 | Integer.MIN_VALUE |||
-| integer overflow|
+| integer overflow| Interger.MAX_VALUE + 1 == MIN_VALUE, it wraps around | | | 
+| Integer underflow|  In
 
 
+
+| Overloaded method/function or constructor |  Uses the same name, but has different parameters |  Pizza(), Pizza (string toppings) 2
+constractors, frist is a defualt cheese pizza, 2nd has 1 topping |  |  | 
+|  dot notation |  Methods are called on objects using a dot after the object name |  object.method(value); | | | 
+| Concatenate|  to combine string with other string an/or variables|  string greeting = "hello" + "My name is " + name ". "; | | | 
 
 ## Flutter Definitions with structures
 
