@@ -51,7 +51,8 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-| variable    | A named container used to store a value that may change. | `var x = 5;` |variable a property for that fit  |title: 'TSA Portfolio',  |
+| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |                                       | variable    | A named container used to store a value that may change. | `var x = 5;` |variable a property for that fit  |title: 'TSA Portfolio',  |
 | constant    | A fixed value that cannot change once set. | `const PI = 3.14;` |const MYPortfolioApp({super.key});  |  |
 | data type   | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |a sentence vs and age  |  |
 | string      | A sequence of characters used to represent words or text. | `"Hello World"` |the objective of video game    |  |
@@ -76,6 +77,14 @@
 |Minimum int| The mimimum valuye an int can hold: 2147483648 | Integer.MIN_VALUE |||
 | integer overflow| Interger.MAX_VALUE + 1 == MIN_VALUE, it wraps around | | | 
 | Integer underflow|  In
+| index| location value of each character in a string r list, starting at 0 | "Hello" index 'e' is 1 |||
+|substring| Part f larger string| "llo" is a substring of "Hello" |||
+
+<img width="1452" height="614" alt="Screenshot 2025-11-14 110547" src="https://github.com/user-attachments/assets/167fd825-0251-425d-8ff4-234653d5b4a4" />
+
+| string notesV (#string-notes) 
+###string notes
+- STRINGS HAVE INDICES(PLURAL FOR INDEX,) WICH START AT 0. "hELLO HAD INDICES 0(h), 1(E), 
 
 
 
